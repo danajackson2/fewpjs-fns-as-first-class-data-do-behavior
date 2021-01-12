@@ -2,7 +2,7 @@
 
 document.querySelector("button").addEventListener("click", handleClick);
 
-function handleClick(e) {
+function handleClick() {
   const timeString = document.getElementById('time').value
   displayMessage(greet(timeString))
 }
